@@ -26,9 +26,6 @@ def main():
     
 
 
- - Desarrollado por:
-    - **Javier Horacio Pérez Ricárdez**
-    - © 2025. Todos los derechos reservados.
     
 if __name__ == "__main__":
     main()
