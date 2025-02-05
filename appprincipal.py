@@ -22,11 +22,10 @@ def main():
     # Descripción breve
     st.write("Esta aplicación permite clasificar textos utilizando el algoritmo Naive Bayes Multinomial.")
     
-    # Agregar Machine Learning aplicado
-    st.markdown("## 1.- Machine Learning aplicado")
-    
-    # Agregar el nombre del usuario
-    st.markdown("## 2.- Javier Horacio Pérez Ricárdez")
+    # Agregar secciones en la barra lateral
+    with st.sidebar:
+        st.markdown("## 1.- Machine Learning aplicado")
+        st.markdown("## 2.- Javier Horacio Pérez Ricárdez")
     
 if __name__ == "__main__":
     main()
