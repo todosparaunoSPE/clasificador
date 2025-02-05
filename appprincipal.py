@@ -6,6 +6,12 @@ Created on Tue Feb  4 18:05:52 2025
 """
 
 import streamlit as st
+import nltk
+from nltk.corpus import stopwords
+
+# Descargar stopwords si no están disponibles
+nltk.download('stopwords')
+stop_words = stopwords.words('spanish')
 
 def main():
     st.set_page_config(page_title="Clasificador Naive Bayes Multinomial", layout="centered")
@@ -16,7 +22,7 @@ def main():
     # Descripción breve
     st.write("Esta aplicación permite clasificar textos utilizando el algoritmo Naive Bayes Multinomial.")
     
-   
+    
     
 if __name__ == "__main__":
     main()
