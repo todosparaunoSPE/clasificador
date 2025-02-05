@@ -24,7 +24,11 @@ def main():
     # Descripción breve
     st.write("Esta aplicación permite clasificar textos utilizando el algoritmo Naive Bayes Multinomial.")
     
-    
+
+
+ - Desarrollado por:
+    - **Javier Horacio Pérez Ricárdez**
+    - © 2025. Todos los derechos reservados.
     
 if __name__ == "__main__":
     main()
