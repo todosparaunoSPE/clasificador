@@ -20,7 +20,7 @@ def main():
     st.markdown("# Clasificador Naive Bayes Multinomial")
     
     # Descripción breve
-    st.write("Esta aplicación permite clasificar textos utilizando el algoritmo Naive Bayes Multinomial.")
+    st.write("Esta aplicación permite clasificar textos de correos electrónicos como spam y ham, utilizando el algoritmo Naive Bayes Multinomial.")
     
     # Agregar secciones en la barra lateral
     with st.sidebar:
