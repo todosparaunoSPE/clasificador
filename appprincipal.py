@@ -9,8 +9,6 @@ import streamlit as st
 import nltk
 from nltk.corpus import stopwords
 
-
-
 # Descargar stopwords si no están disponibles
 nltk.download('stopwords')
 stop_words = stopwords.words('spanish')
@@ -24,8 +22,11 @@ def main():
     # Descripción breve
     st.write("Esta aplicación permite clasificar textos utilizando el algoritmo Naive Bayes Multinomial.")
     
-
-
+    # Agregar Machine Learning aplicado
+    st.markdown("## 1.- Machine Learning aplicado")
+    
+    # Agregar el nombre del usuario
+    st.markdown("## 2.- Javier Horacio Pérez Ricárdez")
     
 if __name__ == "__main__":
     main()
