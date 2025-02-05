@@ -24,8 +24,8 @@ def main():
     
     # Agregar secciones en la barra lateral
     with st.sidebar:
-        st.markdown("## 1.- Machine Learning Aplicado")
-        st.markdown("## 2.- Javier Horacio Pérez Ricárdez")
+        st.markdown("## Materia:  Machine Learning Aplicado")
+        st.markdown("## Alumno: Javier Horacio Pérez Ricárdez")
     
 if __name__ == "__main__":
     main()
